@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render App component 1`] = `
+<div
+  className="app_body"
+>
+  <div
+    className="app_wrapper"
+  >
+    <h1>
+      Sample app
+    </h1>
+    <div
+      className="wrapper"
+    >
+      <p>
+        This is sample React component. Put your components in 
+        <code>
+          /src/components/
+        </code>
+         directory.
+      </p>
+    </div>
+    <div
+      className="wrapper"
+    >
+      <div
+        className="inner_wrapper"
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+          }
+        }
+      >
+        <button
+          className="button"
+          onClick={[Function]}
+        >
+          Change color
+        </button>
+        <p>
+          <b>
+            Current color:
+          </b>
+          #FFF
+        </p>
+        <button
+          className="button"
+          onClick={[Function]}
+        >
+          Call async action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

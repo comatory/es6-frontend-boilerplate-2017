@@ -1,0 +1,36 @@
+@import '../../style/colors.scss';
+@import '../../style/containers.scss';
+@import '../../style/inputs.scss';
+
+.app_body {
+  width: 80%;
+  max-width: 1280px;
+  margin: 20px auto;
+  background-color: $primary;
+  font-family: sans-serif;
+  border-radius: $container-border-radius;
+  min-width: 360px;
+}
+
+.app_wrapper {
+  padding: 30px;
+  :global(h1) {
+    margin-top: 0;
+    color: $light;
+    letter-spacing: 0.03em;
+  }
+}
+
+.wrapper {
+  margin: 10px 0px;
+}
+
+.inner_wrapper {
+  background-color: #FFF;
+  border-radius: $container-border-radius;
+  padding: 10px;
+}
+
+.button {
+  @include button;
+}

@@ -1,0 +1,6 @@
+{
+  "presets": ["env", "es2017", "react", "stage-3"],
+  "plugins": [
+    ["transform-class-properties", { "spec": true }]
+  ]
+}

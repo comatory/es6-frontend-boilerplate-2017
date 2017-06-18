@@ -1,0 +1,19 @@
+@import './colors.scss';
+
+@mixin button {
+  background-color: $primary;
+  color: $light;
+  border-radius: 3px;
+  border: 0px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  padding: 8px 15px;
+  cursor: pointer;
+  display: table;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: 0px;
+  &:hover {
+    background-color: lighten($primary, 5%);
+  }
+}
